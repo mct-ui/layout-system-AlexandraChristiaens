@@ -463,9 +463,10 @@ padding: 0 -6px;
     width: 83.333%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) { /* in de html geven we mee bij welk breakpoint het moet veranderen 776px is hier bp1 */
 
-    .u-1-of-2-bp1 {
+    .u-1-of-2-bp1 { /* items met u-1-of-2-bp1 zullen 50% van de breedte innemen indien het scherm minimum 576px is,
+        indien het scherm kleiner is, zullen ze onder elkaar staan*/
         width: 50%;
     }
 
